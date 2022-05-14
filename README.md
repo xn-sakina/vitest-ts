@@ -14,7 +14,7 @@ Support vitest transform typescript to commonjs
 
 ### Usage
 
-#### common scene
+#### commonjs scene
 
 ```ts
 // vitest.config.ts
