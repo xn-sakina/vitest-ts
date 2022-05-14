@@ -1,0 +1,54 @@
+{
+  "name": "vitest-ts",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "Support vitest transform typescript to commonjs",
+  "keywords": [
+    "vitest",
+    "vitest-ts",
+    "vitest-typescript",
+    "vitest-transform-ts",
+    "vitest-commonjs",
+    "vitest-cjs"
+  ],
+  "homepage": "https://github.com/xn-sakina/vitest-ts#README",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xn-sakina/vitest-ts"
+  },
+  "author": "fz6m",
+  "files": [
+    "dist",
+    "setupFiles"
+  ],
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "prepare": "husky install",
+    "test": "pnpm -r --filter './examples/**' run test",
+    "prepublishOnly": "rimraf dist && pnpm build",
+    "push": "npm publish --registry=https://registry.npmjs.com/"
+  },
+  "dependencies": {
+    "@xn-sakina/phoenix": "^1.0.2",
+    "defu": "6.0.0",
+    "esbuild": "^0.14.39"
+  },
+  "peerDependencies": {
+    "vitest": ">=0.12.0"
+  },
+  "devDependencies": {
+    "@fz6m/eslint-plugin-sakina": "^2.0.2",
+    "@types/node": "^17.0.33",
+    "@xn-sakina/mental": "^1.0.0",
+    "commit-verify": "^1.0.3",
+    "eslint": "^8.15.0",
+    "husky": "^8.0.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.4",
+    "vitest": "^0.12.6"
+  },
+  "packageManager": "pnpm@7.0.1",
+  "license": "MIT"
+}

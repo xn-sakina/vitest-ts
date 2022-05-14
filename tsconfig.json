@@ -1,0 +1,10 @@
+{
+  "extends": "@xn-sakina/mental/lib",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "isolatedModules": false,
+    "target": "es2019"
+  },
+  "include": ["src"]
+}

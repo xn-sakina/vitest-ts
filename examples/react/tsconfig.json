@@ -1,0 +1,6 @@
+{
+  "extends": "@xn-sakina/mental/react",
+  "compilerOptions": {
+    "isolatedModules": false
+  }
+}

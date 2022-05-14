@@ -1,0 +1,10 @@
+// Vitest Snapshot v1
+
+exports[`page component 1`] = `
+<div>
+  <span>
+    page: 
+    test
+  </span>
+</div>
+`;

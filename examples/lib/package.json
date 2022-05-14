@@ -1,0 +1,10 @@
+{
+  "name": "@examples/lib",
+  "private": true,
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest-ts": "workspace:*"
+  }
+}
